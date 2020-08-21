@@ -1,0 +1,27 @@
+ [data-pnotify].custom-elem {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    line-height: 1.1;
+  }
+  [data-pnotify] .custom-container {
+    background-color: #404040;
+    background-image: none;
+    border: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+  }
+  [data-pnotify] .custom-title,
+  [data-pnotify] .custom-text {
+    margin-left: 50px;
+    color: #FFF;
+  }
+  [data-pnotify] .custom-title {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  [data-pnotify] .custom-icon {
+    color: #FFA;
+  }

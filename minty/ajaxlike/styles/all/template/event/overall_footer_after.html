@@ -1,0 +1,12 @@
+<!-- MINTY AJAX Likes JS import Modifications Start -->
+<script>
+    window.board_url = '{{ BOARD_URL | e('js') }}';
+
+    document.addEventListener("DOMContentLoaded", function (event) {
+        initMintyAjaxLikes();
+    });     
+</script>
+{% INCLUDEJS 'pnotify/pnotify.js' %}
+{% INCLUDEJS 'pnotify/PNotifyMobile.js' %}
+{% INCLUDEJS 'minty_ajax_likes.js' %}
+<!-- MINTY AJAX Likes JS import Modifications End -->
